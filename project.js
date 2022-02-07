@@ -23,9 +23,9 @@
                 });
 
                 if (arrayDishesWithoutEmptys.length <= 3) {
-                    $scope.message = 'Enjoy!';
+                    $scope.message = 'Enjoy It!';
                 } else {
-                    $scope.message = 'Too much!';
+                    $scope.message = 'Too much It Please Reduce It!';
                 }
             }
         };
